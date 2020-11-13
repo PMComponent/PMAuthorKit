@@ -1,0 +1,6 @@
+framework module PMAuthorKit {
+  umbrella header "PMAuthorKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
