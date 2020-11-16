@@ -1,6 +1,6 @@
 {
   "name": "PMAuthorKit",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of PMAuthorKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PMComponent/PMAuthorKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/PMComponent/PMAuthorKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "10.0"
@@ -36,6 +36,12 @@
 
     ],
     "PMConfigsKit": [
+
+    ],
+    "PMAuthorKit_Category": [
+
+    ],
+    "PMSpecialKit_Category": [
 
     ],
     "YYWebImage": [

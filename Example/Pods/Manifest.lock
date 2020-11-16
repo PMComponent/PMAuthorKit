@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - CTMediator (44)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -28,20 +29,28 @@ PODS:
   - PMAPIsKit (0.1.0):
     - AFNetworking (~> 2.3)
     - PMToolsKit
-  - PMAuthorKit (0.1.2):
+  - PMAuthorKit (0.1.4):
     - Masonry
     - PMAPIsKit
+    - PMAuthorKit_Category
     - PMCategoryKit
     - PMConfigsKit
     - PMMainViewKit
     - PMReformerKeysKit
+    - PMSpecialKit_Category
     - PMToolsKit
     - ReactiveCocoa (~> 2.5)
     - YYWebImage
+  - PMAuthorKit_Category (0.1.0):
+    - CTMediator
+    - PMAPIsKit
   - PMCategoryKit (0.1.0)
   - PMConfigsKit (0.1.0)
   - PMMainViewKit (0.1.0)
   - PMReformerKeysKit (0.1.0)
+  - PMSpecialKit_Category (0.1.0):
+    - CTMediator
+    - PMAPIsKit
   - PMToolsKit (0.1.0):
     - FMDB
     - MBProgressHUD
@@ -66,6 +75,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - CTMediator
     - FMDB
     - Masonry
     - MBProgressHUD
@@ -75,10 +85,12 @@ SPEC REPOS:
     - YYWebImage
   https://github.com/PMComponent/PMSpace.git:
     - PMAPIsKit
+    - PMAuthorKit_Category
     - PMCategoryKit
     - PMConfigsKit
     - PMMainViewKit
     - PMReformerKeysKit
+    - PMSpecialKit_Category
     - PMToolsKit
 
 EXTERNAL SOURCES:
@@ -87,15 +99,18 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   PMAPIsKit: 37e8cca1bf079d26f101bb40057019d6b39f8419
-  PMAuthorKit: 0dcbdc283efc61e81ab7068d9f76e7841aaa0cfd
+  PMAuthorKit: ed514d6d6245d4ca759f0f21253cf1e4c954452a
+  PMAuthorKit_Category: f9e9843807f3e13328b694deae3f70e6b414252b
   PMCategoryKit: da66dce3d9b3f6946fb86854ed65cd6d239522c6
   PMConfigsKit: 64ab2d822d5058858b4de33ac22ecc81de1ed3c8
   PMMainViewKit: 57232af1e2134b4628e7513abd8f3bf3473c4f46
   PMReformerKeysKit: 68d7a33690d1cd48ec6ed87fcc8efaf42e294071
+  PMSpecialKit_Category: 7873c250e7038a8dc4d4574e8e6f8ab6153f6882
   PMToolsKit: 80770571fb2fd0036394cea8e5710190fb1157f0
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
