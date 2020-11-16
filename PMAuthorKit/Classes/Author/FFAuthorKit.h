@@ -15,7 +15,7 @@
 #import <PMConfigsKit/PMConfigsKit-umbrella.h>
 #import <PMToolsKit/PMToolsKit-umbrella.h>
 #import <PMMainViewKit/PMMainViewKit-umbrella.h>
-//#import <PMReformerKeysKit/PMReformerKeysKit-umbrella.h>
+#import <PMReformerKeysKit/PMReformerKeysKit-umbrella.h>
 
 
 #endif /* FFAuthorKit_h */
