@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PMAuthorKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of PMAuthorKit.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'PMAuthorKit/Classes/**/*'
-  
+
+#  s.subspec 'Mainpage' do |ss|
+#      ss.source_files = 'PMAuthorKit/Classes/Author/Mainpage/*'
+#  end
+#  s.subspec 'Detail' do |ss|
+#      ss.source_files = 'PMAuthorKit/Classes/Author/Detail/*'
+#  end
+
   # s.resource_bundles = {
   #   'PMAuthorKit' => ['PMAuthorKit/Assets/*.png']
   # }

@@ -7,18 +7,10 @@
 //
 
 #import "FFAuthorCell.h"
+#import "FFAuthorKit.h"
 #import "YYWebImage.h"
 #import "FFAuthorListReformerKeys.h"
-#import <Masonry/Masonry.h>
-#import "FFConst.h"
-#import "HUDTools.h"
-#import "UILabel+Extension.h"
-#import "UIColor+Hex.h"
-#import "UIButton+Extension.h"
-#import "UIView+FFFrame.h"
-#import "UITableViewCell+FFAdd.h"
-#import <ReactiveCocoa/ReactiveCocoa.h>
-#import <YYWebImage/YYWebImage.h>
+
 @interface FFAuthorCell ()
 
 /// 作者

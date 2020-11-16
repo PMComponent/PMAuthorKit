@@ -7,14 +7,12 @@
 //
 
 #import "FFAuthorController.h"
+#import "FFAuthorKit.h"
 #import "AuthorAPIRequest.h"
 #import "FFAuthorListReformer.h"
 // view
 #import "FFMainView.h"
 #import "FFAuthorCell.h"
-#import "HUDTools.h"
-#import "UIView+FFFrame.h"
-
 // controller
 #import "FFAuthorDetailController.h"
 //#import "FFSpecialDetailController.h"
@@ -58,7 +56,6 @@
 }
 
 - (void)cellGoodTopicDidClick:(NSIndexPath *)indexPath params:(NSDictionary *)params {
-    // TODO
 //    UIViewController *controller = [[FFSpecialDetailController alloc] init];
 //    [self.navigationController pushViewController:controller animated:YES];
 }

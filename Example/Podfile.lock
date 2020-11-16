@@ -28,7 +28,7 @@ PODS:
   - PMAPIsKit (0.1.0):
     - AFNetworking (~> 2.3)
     - PMToolsKit
-  - PMAuthorKit (0.1.0):
+  - PMAuthorKit (0.1.2):
     - Masonry
     - PMAPIsKit
     - PMCategoryKit
@@ -91,7 +91,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   PMAPIsKit: 37e8cca1bf079d26f101bb40057019d6b39f8419
-  PMAuthorKit: 460eb9a404ec0a93ac6f0ad00df79439d17a8a55
+  PMAuthorKit: 0dcbdc283efc61e81ab7068d9f76e7841aaa0cfd
   PMCategoryKit: da66dce3d9b3f6946fb86854ed65cd6d239522c6
   PMConfigsKit: 64ab2d822d5058858b4de33ac22ecc81de1ed3c8
   PMMainViewKit: 57232af1e2134b4628e7513abd8f3bf3473c4f46
@@ -102,6 +102,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 05ce2eeee1a0875da3af48f980b390b8ed43aaf0
+PODFILE CHECKSUM: eddfb19f0a8487418d6ce5c743ac5de575ff35bf
 
 COCOAPODS: 1.9.0
